@@ -2,7 +2,10 @@ li{
     display: inline-block;
     font-size: 14px;
     width: 250px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+
+
 }
 .outer-box{
     display: inline-block;
@@ -23,13 +26,34 @@ li{
     padding: 20px;
 }
 .grey{
-    color:dimgray;
+    color:#626262;
+    font-size: 25px;
+    width: 406px;
+    height: 29px;
 }
 .blue{
-    color:dodgerblue;
+    color:#25b4f5;
 }
 .footer{
-    width: 150px;
-    height: 75px;
-    left: 300px;
+    
+    padding-left: 507px;
+    padding-top: 58px;
+
+}
+.button{
+    width: 163px;
+    height: 59px;
+    background-color: white;
+    text-align: center;
+    color: #626262;
+    font-size: 20px;
+}
+.p{
+    color: #b4ad9e;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    width: 71px;
+    height: 11px;
+ 
+  
 }
