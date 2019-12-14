@@ -4,6 +4,7 @@ li{
     width: 250px;
     font-family: 'Playfair Display SC', serif;
     text-align: center;
+    
 
 
 }
@@ -54,6 +55,10 @@ li{
     font-size: 15px;
     width: 71px;
     height: 11px;
- 
-  
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
