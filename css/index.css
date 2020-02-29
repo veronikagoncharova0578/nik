@@ -1,12 +1,12 @@
-li{
+.list-items{
     display: inline-block;
     font-size: 14px;
     width: 250px;
     font-family: 'Playfair Display SC', serif;
     text-align: center;
-    
-
-
+}
+.link:hover{
+    color: #03a9f4;
 }
 .outer-box{
     display: inline-block;
@@ -26,14 +26,11 @@ li{
     margin: 30px;
     padding: 20px;
 }
-.grey{
+.name{
     color:#626262;
     font-size: 25px;
     width: 406px;
     height: 29px;
-}
-.blue{
-    color:#25b4f5;
 }
 .footer{
     
@@ -49,7 +46,7 @@ li{
     color: #626262;
     font-size: 20px;
 }
-.p{
+.text{
     color: #b4ad9e;
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 15px;
@@ -61,13 +58,24 @@ a{
     text-decoration: none;
     color: black;
 }
-@media (max-width: 767.98px) {
-    
-}
-
-@media(max-width: 1199.98px){
-
-
+@media(max-width: 991.98px){
+    .outer-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
