@@ -38,7 +38,6 @@
 
 .footer {
     padding-left: 507px;
-    padding-top: 58px;
 }
 
 .button {
@@ -68,14 +67,12 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* align-items: center; */
     }
     .list {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-left: 70px;
     }
     .button {
         display: flex;
